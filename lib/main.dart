@@ -1,5 +1,5 @@
 
-import 'package:database/screens/shared_prefarence_home.dart';
+import 'package:database/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main (){
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: SharedPrefarenceHome(),
+      home: SplashScreen(),
     );
   }
 }
